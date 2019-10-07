@@ -8,6 +8,10 @@ See [Make Arduino Applications for ODROID-GO](https://wiki.odroid.com/odroid_go/
 ![preview](image/icnFWC128.png)
 
 ### Update
+v1.1.1 (2019/10/7)
+
+- Fixed a bug that the fwcnv file that became unnecessary in v1.1 does not start unless it is in the "tool" folder.
+
 v1.1.0 (2019/10/5)
 
 - Included the Windows version.
