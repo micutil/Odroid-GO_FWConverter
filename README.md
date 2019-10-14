@@ -24,6 +24,7 @@ v1.2.0 (2019/10/14)
 4. Set the top-left position with x, y value in listbox.
 5. Set the zoom (%) in listbox.
 6. Save.
+
 ![preview](image/editimage.png)
 
 #### Convert bin to FW file.
