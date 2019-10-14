@@ -6,28 +6,57 @@ FWConverter is the converting application. You can convert a android bin file th
 ![preview](image/icnFWC128.png)
 
 ### Update
-v1.1.3 (2019/10/9)
 
-- Fixed bug of the opening for icon editor.
-- In case of the selected a bin file. if there's not a image file of the same name of bin, opening dialog for select image.
+v1.2.0 (2019/10/14)
+
+- [NEW] Function for displaying fw file information.
+- [MOD] Select bin and icon file separately.
+- [MOD] Edit the description of fw file.
 
 
 ## How to use
 
-- Make a bin file and a picture file (jpg, png, tiff or color565 raw file), then, these files place in a same folder and same name. Their file names have to be same, like 12345.bin and 12345.jpg.
-- You just drag & drop the picture file (or bin file) to main window of FWConverter or icon of FWConverter app.
+#### Edit the icon for FW file.
 
-
-- Icon editer: File menu -> New Icon editor
-	1. Add images.
-	2. Set buckground color (click the center of rectangle).
-	2. Set the top-left position with x, y value in listbox.
-	3. Set the zoom (%) in listbox.
-	4. Save.
+1. File menu -> New Icon editor
+2. Add images.
+3. Set buckground color (click the center of rectangle).
+4. Set the top-left position with x, y value in listbox.
+5. Set the zoom (%) in listbox.
+6. Save.
 ![preview](image/editimage.png)
 
-#### Version history
+#### Convert bin to FW file.
 
+1: bin and picture file are same name...
+
+- Make a bin file and a picture file (jpg, png, tiff or color565 raw file), then, these files place in a same folder and same name. Their file names have to be same, like 12345.bin and 12345.jpg.
+- You just drag & drop the picture file (or bin file) to fw convert window of FWConverter or icon of FWConverter app.
+- Edit description if necessary.
+- Then, bush "Start convert" button.
+
+2: bin and picture files aren't same name...
+
+- Select bin file.
+- Select Icon file.
+- Edit description if necessary.
+- Then, bush "Start convert" button.
+
+![preview](image/fwconvert.png)
+
+#### Display FW file information.
+
+1. File -> FW Information...
+2. Select fw file.
+
+- You can show the information with drag & drop to FWConverter app icon.
+
+![preview](image/fwinfo.png)
+
+## Version history
+
+- Fixed bug of the opening for icon editor (v1.1.3: 2019/10/9).
+- In case of the selected a bin file. if there's not a image file of the same name of bin, opening dialog for select image (v1.1.3: 2019/10/9).
 - You can now drop files in the shell console field of the main window (v1.1.2: 2019/10/7).
 - Fixed a bug that the fwcnv file that became unnecessary in v1.1 does not start unless it is in the "tool" folder (v1.1.1: 2019/10/7).
 - Included the Windows version (v1.1.0: 2019/10/5).
