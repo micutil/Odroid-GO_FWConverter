@@ -7,6 +7,11 @@ FWConverter is the converting application. You can convert a android bin file th
 
 ### Update
 
+v1.2.1 (2020/3/22)
+
+- [CHG] Include mkfw file in app (Mac)
+- [CHG]: Can select mkfw file.
+
 v1.2.0 (2019/10/14)
 
 - [NEW] Function for displaying fw file information.
@@ -16,7 +21,7 @@ v1.2.0 (2019/10/14)
 
 ## How to use
 
-#### Edit the icon for FW file.
+### 1, Edit the icon for FW file.
 
 1. File menu -> New Icon editor
 2. Add images.
@@ -27,7 +32,7 @@ v1.2.0 (2019/10/14)
 
 ![preview](image/editimage.png)
 
-#### Convert bin to FW file.
+### 2, Convert bin to FW file.
 
 1: bin and picture file are same name...
 
@@ -45,7 +50,7 @@ v1.2.0 (2019/10/14)
 
 ![preview](image/fwconvert.png)
 
-#### Display FW file information.
+### 3, Display FW file information.
 
 1. File -> FW Information...
 2. Select fw file.
