@@ -10,7 +10,7 @@ FWConverter is the converting application. You can convert a android bin file th
 v1.2.1 (2020/3/22)
 
 - [CHG] Include mkfw file in app (Mac)
-- [CHG]: Can select mkfw file.
+- [CHG] Can select mkfw file.
 
 v1.2.0 (2019/10/14)
 
